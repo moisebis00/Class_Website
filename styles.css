@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(46, 45,45);
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 0px 10px 5px rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+ul{
+  
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+
+}
+
+li{
+    float:inline-start;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    
+}
