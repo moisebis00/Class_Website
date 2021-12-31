@@ -13,26 +13,127 @@ hr{
     box-shadow: 0px 10px 5px rgb(255, 255, 255);
     margin-top: 15px;
 }
-
-ul{
-  
-    list-style: none;
-    display: inline;
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
-
-}
-
-li{
-    float:inline-start;
-    text-align: center;
-}
-
-li a{
+a{
     text-decoration: none;
     color: white;
-    padding: 20px 20px;
+}
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-right: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 40px;
+    height: 30px;
+    width: 90px;
+    font-weight:bolder;
+    border: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.parent-div :hover{
+    background-color: rgba(165, 42, 42, 0.411);
+    color: white;
+}
+
+.btn-home{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+a{
+    color: brown;
+}
+a:hover{
+    background-color: brown;
+    color: white;
+}
+
+.active{
+    color: rgb(255, 251, 251);
+    background-color: gray;
+   
+}
+
+.btn-gall{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.btn-devs{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.btn-regi{
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+
+.btn-about{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.div-image{
+    padding-top: 150px;
+    margin-left: 50px;
+   
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover{
+    transform: scale(1.2, 1.2);
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(255, 6, 6, 0.61), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column{
+    float: left;
+    width: 50%;
     
 }
+
+.row{
+    content: "";
+    clear: both;
+    display: table;
+    padding-top: 150px;
+    margin-left: 55px;
+    margin-right: 55px;
+
+}
+
+h2{
+    color: white;
+    padding-top: 50px;
+    margin-left: 10%;
+
+}
+
+p{
+    color: white;
+    padding-top: 5px;
+    margin-left: -30%
+}
+
+.small{
+    width: 127%;
+    margin-left: -30%
+}
+
