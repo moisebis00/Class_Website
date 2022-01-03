@@ -82,3 +82,28 @@ a:hover{
     margin-right: 60px;
     margin-left: 60px;
 }
+
+h1{
+    color: white;
+}
+h2{color: rgba(191, 179, 245, 0.726);}
+
+div{
+    margin-right: 100px;
+}
+  p1{color:white;
+     ;  }
+ div{color: white;}
+ h1{ 
+     text-align: center;
+ }
+ h2{
+     text-align: center;
+ }
+p{
+    text-align: center;
+}
+    
+ p1{
+     text-align: center;
+ }
