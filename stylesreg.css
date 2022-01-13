@@ -84,5 +84,10 @@ a:hover{
 }
 
 .form-maindiv{
-    align-content: center;
+    margin-left: 45px;
+}
+
+input{
+    height: 20px;
+    width: auto;
 }
